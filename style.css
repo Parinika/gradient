@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+body 
+{
+     font-family: 'Patrick Hand', cursive;
+     font-size: .5cm;
+     font-weight: 100;
+     background-image: linear-gradient(#ffebb0, #fcfaf3);
+}
+.heading
+{
+    background-image: linear-gradient(#ffd1dc, #ffd966);
+    background-repeat: no-repeat;
+    font-size: 1.5cm;
+    text-align: center;
+    color: #008000;
+    font-family: 'Gluten', cursive;
+    padding: 5%;
+}
+#gradient{
+    position: relative;
+    height: 55vh;
+    width: 250vw;
+    background-color: black;
+    border-radius: 8%;
+    background: linear-gradient(45deg, #7FFFD4 , #088F8F);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+#define{
+    margin: auto 6rem;
+    width: 50%;
+}
+.container{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 900px) {
+    .container{
+        flex-direction: column;
+    }
+}
+input{
+    border: none;
+    border-radius: 0px;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    -webkit-appearance: none;
+}
+input::-webkit-color-swatch-wrapper {
+    padding: 0; 
+}
+input::-webkit-color-swatch {
+    border: none;
+    border-radius: 20px;
+}
+#define{
+    margin:0rem 6rem;
+    width: 50%;
+}
+p
+{
+    text-align: center;
+    margin: 1.5rem auto;
+    letter-spacing: .2em;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#type{
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: #ffc106;
+    color: #000000;
+    padding: 6px;
+    outline: #ffc106;
+    border: #ffc106;
+    font-size: 1rem;
+    font-weight: bold;
+}
+/*.columns {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+.left
+{
+    width: 20%;
+}
+.middle
+{
+    width: 30%;
+}
+.right
+{
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
